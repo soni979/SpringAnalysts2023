@@ -1,0 +1,16 @@
+# Configuration variables for the inputs/create_readme.py Script
+
+# List of scripts used in the project
+scripts:
+  - "./script/test_script.py"
+  - "./script/data_input.py" 
+  - "./script/data_output.py"
+
+# Output for the script annotation (make sure it's a .md file)
+output: "./script/README.md"
+
+# Setting scripts to run
+run_script: False # Set to True if running script documentation
+run_project: True # Set to True if running project documentation
+
+test: False # Set to True if running in github-general-template

@@ -1,0 +1,56 @@
+Variable,Text
+Project Title,Project Name
+Project Description,Project Description
+About Project,"Here is a space to put project description, notes about code assumptions, etc"
+Built With,"* [Next.js](https://nextjs.org/)
+* [React.js](https://reactjs.org/)
+* [Vue.js](https://vuejs.org/)
+* [Angular](https://angular.io/)
+* [Svelte](https://svelte.dev/)
+* [Laravel](https://laravel.com)
+* [Bootstrap](https://getbootstrap.com)
+* [JQuery](https://jquery.com)"
+Core File,script/test_script.py
+Usage,"Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+
+
+### Updating project files
+You will need to have an IDE installed in order to modify the python scripts. These steps use the git commands that can be run in command line, however you can use the desktop github application to make updates more easily.
+1) Pull down the project using the steps in the [installation](#installation) section. 
+2) Create a new branch using this command: `git checkout -b branch-name`
+3) Open and modify files where the changes need to be made. 
+4) Once the changes are done and the scripts have been tested and work as expected, commit these changes to the branch using this command: `git commit -a -m 'Description of changes'`
+   - You can continue working out of this branch until all changes you want to do are done, or move to the next step and redo this process later for additional changes
+5) Merge your changes to the `master` branch run the following commands:
+    ```git
+    git checkout master
+    git merge branch-name
+    ```
+   - Note that if you made changes to a file at the same time as someone else merge conflicts may happen, these can be dealt with using additional commands
+   - For more information on [Git Commands](https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging)
+_For more examples, please refer to the [Documentation](https://example.com)_"
+Roadmap,"Checklist of Features:
+- [ ] Feature 1
+- [ ] Feature 2
+    - [ ] Nested Feature"
+Contact List,"* Name - email@email_client.com
+* Name - email@email_client.com
+* Name - email@email_client.com"
+Prereq Text,Follow these directions in order to get this project set up on your machine
+Getting Started,To get a local copy up and running follow these simple example steps.
+Configuration,"If your codebase uses the config.yaml file use this space to illustrate what fields need to be present and what data they need to be populated with. This is also a great location to have an example config input.
+
+Example of config.yaml below:
+```yaml
+example-parameter: true
+example-list:
+  item-1: 1
+  item-2: ""two""
+  item-3: 'image/url.com'
+example-empty:
+  ```"
+Document Explore Link,https://github.com/[Git Account]/[Repo Name]
+View Demo Link,https://github.com/[Git Account]/[Repo Name]
+Report Bug Link,https://github.com/[Git Account]/[Repo Name]/issues
+Request Feature Link,https://github.com/[Git Account]/[Repo Name]/issues
+Git Account,AMEND-Consulting-LLC
